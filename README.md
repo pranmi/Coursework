@@ -1,4 +1,4 @@
-# Coursework
+# Class work
 A collection of courework/projects done for classes
 
 ## Final Projects:
@@ -15,7 +15,25 @@ Personally implimented:
 - Ellipsoidal motion for a comet with a simulated comet trail
 - Dynamic shader for the sun utilizing brownian motion to mimic the surface of the sun
 
-### [Intelligent System Analysis (Deep Learning Model)] (https://github.com/pranmi/Coursework/tree/main/Matlab%20deep%20learning)
+### [Intelligent System Analysis (Deep Learning Model)](https://github.com/pranmi/Coursework/tree/main/Matlab%20deep%20learning)
 Created a small **Deep Learning** model to predict a car's safetly based on different attributes.
 Implimented the model in **MatLab** using a batch gradient descent algorithm with a few layers of hidden units.
 Experimented with different reularization parameters as well as hidden node pruning to improve effeciency.
+
+### [High School AP Computer Science (2D Unity game)](https://github.com/pranmi/Coursework/tree/main/Unity%202D%20shooter/2D%20jumper)
+Made a small 2D platformer/shooter using **Unity** and **c#** as the scripting language. 
+Implimented character movement, as well as object collision and interaction.
+
+## Additional Coursework:
+*Details of implimentation can be found in the linked folder for each course*
+### [Machine Learning](https://github.com/pranmi/Coursework/tree/main/Machine%20Learning)
+Implimented a variety of models across 4 projects:
+- Bernoulli and Multinomial Naive Bayes
+- Decision Tree (w/ and w/o bagging)
+- Random Forest Classifier
+- Gradient Boosting
+- Convolutional Neural Network
+- Kmeans/Kmeans++ Clustering
+- Gaussian Mixture Models
+
+### [Computer Graphics](https://github.com/pranmi/Coursework/tree/main/Computer-Graphics)
