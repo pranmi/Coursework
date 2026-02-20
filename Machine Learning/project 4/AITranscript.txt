@@ -1,0 +1,64 @@
+Me: How would I compute the an ellipse from a gaussian mixture model in seaborn
+
+from sklearn.mixture import GaussianMixture
+import numpy as np
+
+# Example 2D data
+X, y = make_blobs(n_samples=200, centers=2, random_state=42)
+
+# Fit GMM
+gmm = GaussianMixture(n_components=2, covariance_type='full', random_state=42).fit(X)
+predictions = gmm.predict(X)
+
+2. Plot data points with Seaborn
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.scatterplot(x=X[:,0], y=X[:,1], hue=predictions.astype(str), palette="tab10", s=60, edgecolor='k')
+
+3. Draw ellipses from the GMM
+
+from matplotlib.patches import Ellipse
+
+for mean, cov in zip(gmm.means_, gmm.covariances_):
+    # Handle full covariance
+    if cov.ndim == 2:
+        v, w = np.linalg.eigh(cov)       # eigenvalues/eigenvectors
+        order = v.argsort()[::-1]
+        v, w = v[order], w[:, order]
+        angle = np.degrees(np.arctan2(w[1,0], w[0,0]))
+        width, height = 2 * np.sqrt(v)   # 1 std dev ellipse               <--- This section is what I used to make the plot method for GMM
+    elif cov.ndim == 1:  # diagonal covariance
+        width, height = 2 * np.sqrt(cov)
+        angle = 0.0
+    
+    ell = Ellipse(mean, width, height, angle=angle, edgecolor='black', facecolor='none', lw=2)
+    plt.gca().add_patch(ell)
+
+plt.show()
+Eigen-decomposition of covariance matrix gives the axes of the ellipse.
+
+Width & height of the ellipse = 2 * sqrt(eigenvalues) (1 standard deviation).
+
+Angle = orientation of the ellipse from eigenvectors.
+
+Works for full and diagonal covariance types.
+
+Seaborn handles the scatter coloring, Matplotlib handles ellipses.
+
+If you want, I can write a complete Seaborn + GMM function that:
+
+Plots points colored by cluster
+
+Draws ellipses for each Gaussian
+
+Works for any covariance type
+
+Adds silhouette, log-likelihood, and BIC in the title
+
+This would replace your current plotting function entirely.
+
+Do you want me to do that?
+
+(That was the only thing I asked)

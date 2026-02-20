@@ -1,0 +1,3 @@
+I didn't use any AI while doing this project.
+Any information looked up was either on websites like stack overflow through google or directly looking at the sklearn documentation pages
+In case you're wondering why I swap between camel and snake case at some points i'm used to camel but most python methods use snake so I get caught between the two and end up with both
