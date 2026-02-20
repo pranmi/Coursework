@@ -1,0 +1,8 @@
+Model Information:
+* title:	Leaf Sword
+* source:	https://sketchfab.com/3d-models/leaf-sword-9227dde471d849f79046e3b58e6e6c6b
+* author:	plazma019 (https://sketchfab.com/plazma019)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

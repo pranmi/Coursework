@@ -1,0 +1,355 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        116.04084014892578,
+        233.7548828125,
+        32.725067138671875
+      ],
+      "min": [
+        -116.04084014892578,
+        -574.7908325195313,
+        -32.725067138671875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16368,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9999326467514038,
+        1.0,
+        0.9999997019767761
+      ],
+      "min": [
+        -0.999932587146759,
+        -0.9999997019767761,
+        -0.9999997019767761
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        1.0,
+        0.9995014071464539,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999726414680481,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9989309906959534,
+        1.000870943069458
+      ],
+      "min": [
+        0.0015839452389627695,
+        0.0017597528640180826
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10912,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9989309906959534,
+        1.000870943069458
+      ],
+      "min": [
+        0.0015839452389627695,
+        0.0017597528640180826
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21824,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9989309906959534,
+        1.000870943069458
+      ],
+      "min": [
+        0.0015839452389627695,
+        0.0017597528640180826
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 32736,
+      "componentType": 5126,
+      "count": 1364,
+      "max": [
+        0.9989309906959534,
+        1.000870943069458
+      ],
+      "min": [
+        0.0015839452389627695,
+        0.0017597528640180826
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6630,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "plazma019 (https://sketchfab.com/plazma019)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/leaf-sword-9227dde471d849f79046e3b58e6e6c6b",
+      "title": "Leaf Sword"
+    },
+    "generator": "Sketchfab-15.73.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 26520,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43648,
+      "byteOffset": 26520,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32736,
+      "byteOffset": 70168,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21824,
+      "byteOffset": 102904,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 124728,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength"
+  ],
+  "images": [
+    {
+      "uri": "textures/Material.001_baseColor.png"
+    },
+    {
+      "uri": "textures/Material.001_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Material.001_emissive.png"
+    },
+    {
+      "uri": "textures/Material.001_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 10.0
+        }
+      },
+      "name": "Material.001",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "assd.004_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.8831402063369751,
+        -0.4688890278339386,
+        0.014368105679750338,
+        0.0,
+        -0.029405955225229263,
+        -0.08590164780616738,
+        -0.9958695769309998,
+        0.0,
+        0.46818655729293823,
+        0.8790699243545532,
+        -0.08965133130550365,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "leaf.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.43229520320892334,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4322952032089229,
+        1.889622348195952e-08,
+        0.0,
+        0.0,
+        -1.889622348195952e-08,
+        0.4322952032089229,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "assd.004"
+    },
+    {
+      "mesh": 0,
+      "name": "assd.004_Material.001_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
