@@ -40,7 +40,7 @@ Implimented a variety of models across 4 projects:
 - Kmeans/Kmeans++ Clustering
 - Gaussian Mixture Models
 
-### [Statistical Methods for Data Science]
+### [Statistical Methods for Data Science](https://github.com/pranmi/Coursework/tree/main/Statistics)
 Performed statistical analysis and regression in R on sample datasets:
 - Performing EDA (Exploratory Data Analysis)
 - One and two var hypothesis testing
