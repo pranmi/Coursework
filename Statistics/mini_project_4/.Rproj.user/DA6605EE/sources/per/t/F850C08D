@@ -1,0 +1,28 @@
+{
+    "id": "F850C08D",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1778467983841.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "c9ab4ca0a5a14a3d893492f1442c96b9",
+        "name": "model",
+        "title": "model",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 7307491043415436322,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1778467983841,
+    "read_only": false,
+    "read_only_alternatives": []
+}
